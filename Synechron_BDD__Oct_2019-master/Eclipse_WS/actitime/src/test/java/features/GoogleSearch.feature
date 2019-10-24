@@ -21,7 +21,7 @@ Feature: Google Search for a Company Information
   @regression
   Scenario: Search for a Synechron Contact and Address
     Given I'm on google page
-    When I enter "Synechron" in the search box
+    When I enter "IBM" in the search box
     And I click on search button
     Then Results for "Synechron" should be displayed
     And I should print those information on Console
